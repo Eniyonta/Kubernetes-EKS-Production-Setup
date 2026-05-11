@@ -48,6 +48,7 @@ helm install ingress-nginx ingress-nginx/ingress-nginx \
   --namespace ingress-nginx --create-namespace
 ```
 
+
 ### 5. Install Monitoring
 ```bash
 helm install monitoring prometheus-community/kube-prometheus-stack \
