@@ -53,3 +53,6 @@ helm install ingress-nginx ingress-nginx/ingress-nginx \
 helm install monitoring prometheus-community/kube-prometheus-stack \
   --namespace monitoring --create-namespace -f monitoring/values.yaml
 ```
+## Architecture Diagram
+
+![Kubernetes Architecture](diagram/Kubernetes-setup.png)
