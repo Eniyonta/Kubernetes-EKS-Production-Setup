@@ -1,0 +1,11 @@
+grafana:
+  enabled: true
+  adminPassword: "admin123"
+  service:
+    type: LoadBalancer
+
+prometheus:
+  enabled: true
+  server:
+    service:
+      type: ClusterIP
